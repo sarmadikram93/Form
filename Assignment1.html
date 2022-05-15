@@ -1,0 +1,138 @@
+<html>
+<head>
+ 
+   <title>Assignment 1 Form</title>
+   <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+
+<form action="submitted.html">
+   <fieldset>
+      <legend>Photo Details</legend>
+      
+      <table>
+         <tr>
+            <td colspan="2">
+               
+               <br><label>Title</label><br> <input type="text" name="title" size="80%" />  
+               <br><label>Description</label> <br> <textarea name="description" rows="7" cols="80"> </textarea>
+                            
+            </td>
+         </tr>
+
+         <tr>
+            <td> 
+               
+             <label>Continent</label><br> <select>
+               
+                  <option selected hidden>Choose continent</option> 
+                  <optgroup label="Americas">
+                     <option>North America</option>
+                     <option>South America</option>
+                  </optgroup>
+
+                  <optgroup label="No Country Zone">
+                     <option>Antartica</option>
+                  </optgroup>
+
+                  <optgroup label="Rest of the World">
+                     <option>Asia</option>
+                     <option>Australia</option>
+                     <option>Europe</option>
+                     <option>Africa</option>
+                  </optgroup>
+
+               </select>
+              
+               <br><br><label>Country</label><br>  <select>
+                   <option selected disabled="" >Choose country</option> 
+                  
+                     <option>United States</option>
+                     <option>Canada</option>
+                     <option>Brazil</option>
+                     <option>Pakistan</option>
+                     <option>Japan</option>
+                     <option>New Zealand</option>
+                     <option>France</option>
+                     <option>Spain</option>
+                     <option>Egypt</option>
+                  
+               </select>
+                	
+               <br><br><label>City</label><br> <input list = "cities"  size="30"/>              
+               <datalist id="cities">
+                  
+                  <option value = "New York">
+                  <option value = "Ottawa">
+                  <option value = "Brasil">
+                  <option value = "Lahore">                
+                  <option value = "Tokyo">
+                  <option value = "Auckland">
+                  <option value = "Paris">
+                  <option value = "Barcelona">                  
+                  <option value = "Cairo">
+
+               </datalist>
+               
+            </td>
+            <td>
+               
+               <br><div class="border">
+                  <label>Copyright? </label><br>
+                     <input type="radio" name="rights" >All rights reserved<br>
+                     <input type="radio" name="rights">Creative Commons<br>
+               </div>
+
+               <div class="border">
+                  <label>Creative Commons Types </label><br>
+                     <input type="checkbox" name="Attr" >Attribution <br>
+                     <input type="checkbox" name="Noncommercial" checked="" >Noncommercial <br>    
+                     <input type="checkbox" name="No del" >No Derivative Works <br>  
+                     <input type="checkbox" name="Share" checked="" >Share Alike 
+               </div>        
+               <br>       
+            </td>
+         </tr>
+
+         <tr>
+            <td colspan="2" >
+            <div class="highlight"> 
+               <label>I accept the software license</label> <input type="checkbox" name="check" required >
+              
+            </div>
+            </td>
+         </tr>
+         <tr>
+            <td>
+                  
+                  <label>Rate this photo:  <br>  <input type="number" name="rate" min="1" max="10"/> <br>
+                  <label>Color Collection: <br>  <input type="color"  name="colors" value="#ff0000"/>  
+                                               
+            </td>
+
+            <td>
+               <br><div class="border">
+ 
+                  <label>Date Taken: <br> <input type="date"  name="Date" /><br>
+                  <label>Time Taken: <br> <input type="time"  name="Time" /> 
+                                           
+               </div>
+               <br>
+            </td>
+         </tr>
+
+         <tr>
+            <td colspan="2">
+               <div class="highlight" align="center"> 
+                  <input type="submit" class="bluebuttons"> &nbsp;
+                  <input type="reset" value="Clear Form" class="bluebuttons">      
+               </div>
+            </td>
+         </tr>
+      </table>
+   </fieldset>
+</form>
+</body>
+</html>

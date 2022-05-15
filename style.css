@@ -1,0 +1,47 @@
+.highlight {
+   background-color: #EBF4FB;
+   padding: 5px;
+}
+
+.border {
+   border: 1pt solid #95BEF0;
+   padding: 3px;
+   margin-bottom: 8px;
+}
+
+.bluebuttons  {
+   padding-top: 9px;
+   padding-right: 9px;
+   padding-bottom: 9px;
+   padding-left: 9px;
+   border: 1px solid #172d6e;
+   border-bottom: 1px solid #0e1d45;
+   border-radius: 5px;
+   color: white;
+   background-color: #8c9cbf;
+    
+}
+
+fieldset {
+   margin: 1px auto;
+   width: 60%;
+}
+
+legend {
+   text-align: center;
+   font-weight: bold;
+   background-color: #EBF4FB ;
+   width: 90%;
+   font-size: 100%;
+}
+
+table {
+   margin: 0 auto;
+}
+
+body {
+   font-family: "Arial";
+   font-size: 100%;
+}
+
+
